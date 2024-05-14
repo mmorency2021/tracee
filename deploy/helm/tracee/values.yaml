@@ -24,7 +24,7 @@ serviceAccount:
 podAnnotations: {}
 
 podSecurityContext: {}
-  # fsGroup: 2000
+  fsGroup: 2000
 
 # hostPID configures Tracee pods to use the host's pid namespace.
 hostPID: true
